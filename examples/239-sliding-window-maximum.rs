@@ -31,6 +31,9 @@ impl Solution {
 }
 
 fn main() {
-    assert_eq!(Solution::max_sliding_window(vec![1, 3, -1, -3, 5, 3, 6, 7], 3), vec![3, 3, 5, 5, 6, 7]);
+    assert_eq!(
+        Solution::max_sliding_window(vec![1, 3, -1, -3, 5, 3, 6, 7], 3),
+        vec![3, 3, 5, 5, 6, 7]
+    );
     assert_eq!(Solution::max_sliding_window(vec![4, -2], 2), vec![4]);
 }
