@@ -13,7 +13,7 @@ impl ListNode {
 }
 
 // for tests
-pub fn new_list(items: &Vec<i32>) -> Option<Box<ListNode>> {
+pub fn new_list(items: Vec<i32>) -> Option<Box<ListNode>> {
     let mut head = None;
 
     items.iter().rev().for_each(|item| {

@@ -34,12 +34,12 @@ impl Solution {
 }
 
 fn main() {
-    let head = new_list(&vec![1, 2, 3]);
+    let head = new_list(vec![1, 2, 3]);
     print!("{}\n", print_list(&head));
     let result = Solution::reverse_list_1(head);
     print!("{}\n", print_list(&result));
 
-    let head = new_list(&vec![1, 2, 3]);
+    let head = new_list(vec![1, 2, 3]);
     print!("{}\n", print_list(&head));
     let result = Solution::reverse_list_2(head);
     print!("{}\n", print_list(&result));
