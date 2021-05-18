@@ -22,7 +22,7 @@ impl Solution {
         }
     }
 
-    pub fn merge_two_lists_2(mut l1: Option<Box<ListNode>>, mut l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+    pub fn merge_two_lists_2(mut _l1: Option<Box<ListNode>>, mut _l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         // v1.next = v1.next.and_then(|n| merge_two_lists(Some(n), Some(v2)));
         unimplemented!()
     }
